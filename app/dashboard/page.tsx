@@ -4,6 +4,8 @@ import { ArrowRight } from "lucide-react";
 import { recentActivities } from "../data/data";
 
 export default function Page(){
+
+   
     return(
         <div className="p-8 mr-10">
             <div className="flex items-center justify-between mt-10">
@@ -39,7 +41,7 @@ export default function Page(){
                 </section>
             </div>
 
-            <div  className="mt-20">
+            <div className="mt-20">
                 <p style={{fontFamily:spaceBold.style.fontFamily}} className="text-[32px] px-16 mt-10">Recent Activities</p>
                 <div className="overflow-x-auto mt-5 lg:max-w-full md:max-w-full lg:w-full md:w-full lg:px-12 ">
                     <table className="w-full border-collapse table-auto" style={{ fontFamily: spaceBold.style.fontFamily }}>
