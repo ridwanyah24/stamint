@@ -25,16 +25,10 @@ export default function Layout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-      <section className="p-8">
+      <section className={`${geistSans.variable} ${geistMono.variable} antialiased p-8 `}>
         <Nav/>
         {children}
         <Footer />
       </section>
-      </body>
-    </html>
   );
 }
